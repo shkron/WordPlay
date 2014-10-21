@@ -7,6 +7,7 @@
 //
 
 #import "EnterNameViewController.h"
+#import "EnterAdjectiveViewController.h"
 
 @interface EnterNameViewController ()
 
@@ -21,6 +22,11 @@
 
 
     
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    EnterAdjectiveViewController *adjectiveVC = segue.destinationViewController;
+    adjectiveVC.name = self.nameTextField.text;
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49B76B2519F7213300485923 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B76B2419F7213300485923 /* ResultsViewController.m */; };
 		FA877C4319F71B010054A478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA877C4219F71B010054A478 /* main.m */; };
 		FA877C4619F71B010054A478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA877C4519F71B010054A478 /* AppDelegate.m */; };
 		FA877C4919F71B010054A478 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA877C4819F71B010054A478 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49B76B2319F7213300485923 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		49B76B2419F7213300485923 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		FA877C3D19F71B010054A478 /* WorldPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA877C4119F71B010054A478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA877C4219F71B010054A478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				FA877C6719F71C700054A478 /* EnterNameViewController.m */,
 				FA877C6919F71F0D0054A478 /* EnterAdjectiveViewController.h */,
 				FA877C6A19F71F0D0054A478 /* EnterAdjectiveViewController.m */,
+				49B76B2319F7213300485923 /* ResultsViewController.h */,
+				49B76B2419F7213300485923 /* ResultsViewController.m */,
 			);
 			path = WorldPlay;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				FA877C4919F71B010054A478 /* ViewController.m in Sources */,
 				FA877C4619F71B010054A478 /* AppDelegate.m in Sources */,
 				FA877C6B19F71F0D0054A478 /* EnterAdjectiveViewController.m in Sources */,
+				49B76B2519F7213300485923 /* ResultsViewController.m in Sources */,
 				FA877C6819F71C700054A478 /* EnterNameViewController.m in Sources */,
 				FA877C4319F71B010054A478 /* main.m in Sources */,
 			);
@@ -356,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorldPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorldPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

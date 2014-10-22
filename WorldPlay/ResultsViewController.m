@@ -17,8 +17,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.resultsTextView.text = [NSString stringWithFormat:@"%@ was working hard on %@ code challenge of the second day made by Mobile Makers", self.name, self.adjective];
 
+
+
+    NSString *resultString = [NSString stringWithFormat:@"%@ was working hard on %@ code challenge of the second day made by Mobile Makers. I %@ some %@ :)", self.name, self.adjective, self.verb, self.noun];
+
+    
+    NSMutableAttributedString *attributedResultString = [[NSMutableAttributedString alloc] initWithString:resultString];
+
+    [attributedResultString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:[UIFont systemFontSize]] range:[resultString rangeOfString:self.name]];
+
+    [attributedResultString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:[UIFont systemFontSize]] range:[resultString rangeOfString:self.adjective]];
+
+
+    [attributedResultString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:[UIFont systemFontSize]] range:[resultString rangeOfString:self.verb]];
+
+    [attributedResultString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:[UIFont systemFontSize]] range:[resultString rangeOfString:self.noun]];
+
+    
+
+
+
+    self.resultsTextView.attributedText = attributedResultString;
 }
 
 

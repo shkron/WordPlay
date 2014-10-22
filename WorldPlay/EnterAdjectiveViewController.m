@@ -26,6 +26,8 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     ResultsViewController *resultsVC = segue.destinationViewController;
+    resultsVC.adjective = self.adjectiveTextField.text;
+    resultsVC.name = self.name;
     
 }
 

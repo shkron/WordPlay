@@ -75,7 +75,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HY9-vC-yNR" kind="push" id="tiQ-vj-riu"/>
+                                    <segue destination="HY9-vC-yNR" kind="push" identifier="nameSegue" id="tiQ-vj-riu"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vMs-j7-58j">
@@ -148,7 +148,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="u0P-3L-lmD" kind="push" id="WIu-LI-D9S"/>
+                                    <segue destination="u0P-3L-lmD" kind="push" identifier="adjectiveSegue" id="WIu-LI-D9S"/>
                                 </connections>
                             </button>
                         </subviews>

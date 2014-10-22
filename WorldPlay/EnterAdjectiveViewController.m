@@ -20,7 +20,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+}
+
+-(BOOL)shouldPerformSegueWithIdentifier:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([self.adjectiveTextField.text length] == 0)
+    {
+        return NO;
+    }
+    else
+    {
+        return YES;
+    }
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

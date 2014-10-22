@@ -94,16 +94,16 @@
 				FA877C4519F71B010054A478 /* AppDelegate.m */,
 				FA877C4719F71B010054A478 /* ViewController.h */,
 				FA877C4819F71B010054A478 /* ViewController.m */,
-				FA877C4A19F71B010054A478 /* Main.storyboard */,
-				FA877C4D19F71B010054A478 /* Images.xcassets */,
-				FA877C4F19F71B010054A478 /* LaunchScreen.xib */,
-				FA877C4019F71B010054A478 /* Supporting Files */,
 				FA877C6619F71C700054A478 /* EnterNameViewController.h */,
 				FA877C6719F71C700054A478 /* EnterNameViewController.m */,
 				FA877C6919F71F0D0054A478 /* EnterAdjectiveViewController.h */,
 				FA877C6A19F71F0D0054A478 /* EnterAdjectiveViewController.m */,
 				49B76B2319F7213300485923 /* ResultsViewController.h */,
 				49B76B2419F7213300485923 /* ResultsViewController.m */,
+				FA877C4A19F71B010054A478 /* Main.storyboard */,
+				FA877C4D19F71B010054A478 /* Images.xcassets */,
+				FA877C4F19F71B010054A478 /* LaunchScreen.xib */,
+				FA877C4019F71B010054A478 /* Supporting Files */,
 			);
 			path = WorldPlay;
 			sourceTree = "<group>";

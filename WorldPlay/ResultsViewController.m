@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.resultsTextView.text = [NSString stringWithFormat:@"%@ was working hard on %@ code challenge of the second day made by Mobile Makers", self.name, self.adjective];
 
 }
 

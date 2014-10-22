@@ -10,6 +10,7 @@
 #import "EnterNounViewController.h"
 
 @interface EnterVerbViewController ()
+//connect UITextField as IBOutlet
 @property (weak, nonatomic) IBOutlet UITextField *verbTextField;
 
 @end
@@ -18,10 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
--(BOOL)shouldPerformSegueWithIdentifier:(UIStoryboardSegue *)segue sender:(id)sender
+//decide whether or not to perform segue by checking TextField condition
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
     if([self.verbTextField.text length] == 0)
     {
@@ -33,6 +34,7 @@
     }
 }
 
+//perform segue by clicking button and pass data to next ViewController
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     EnterNounViewController *nounVC = segue.destinationViewController;
@@ -41,7 +43,5 @@
     nounVC.adjective = self.adjective;
 
 }
-
-
 
 @end

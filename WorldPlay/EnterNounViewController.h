@@ -13,5 +13,4 @@
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *verb;
 
-
 @end

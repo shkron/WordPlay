@@ -10,21 +10,20 @@
 #import "EnterAdjectiveViewController.h"
 
 @interface EnterNameViewController ()
-
+//connect UITextField as IBOutlet
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 
 @end
 
 @implementation EnterNameViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-
-
-    
 }
 
--(BOOL)shouldPerformSegueWithIdentifier:(UIStoryboardSegue *)segue sender:(id)sender
+//decide whether or not to perform segue by checking TextField condition
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
     if([self.nameTextField.text length] == 0)
     {
@@ -36,11 +35,11 @@
     }
 }
 
+//perform segue by clicking button and pass data to next ViewController
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     EnterAdjectiveViewController *adjectiveVC = segue.destinationViewController;
     adjectiveVC.name = self.nameTextField.text;
 }
-
 
 @end

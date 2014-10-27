@@ -17,7 +17,8 @@
 
 @implementation EnterAdjectiveViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 }
 
@@ -40,7 +41,6 @@
     EnterVerbViewController *verbVC = segue.destinationViewController;
     verbVC.adjective = self.adjectiveTextField.text;
     verbVC.name = self.name;
-    
 }
 
 @end

@@ -17,7 +17,8 @@
 
 @implementation EnterNounViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 }
 
@@ -42,7 +43,6 @@
     resultsVC.name = self.name;
     resultsVC.adjective = self.adjective;
     resultsVC.verb = self.verb;
-
 }
 
 @end

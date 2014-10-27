@@ -17,7 +17,8 @@
 
 @implementation EnterVerbViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 }
 
@@ -41,7 +42,6 @@
     nounVC.verb = self.verbTextField.text;
     nounVC.name = self.name;
     nounVC.adjective = self.adjective;
-
 }
 
 @end

@@ -16,7 +16,8 @@
 
 @implementation ResultsViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 //
     NSMutableAttributedString *resultString = [[NSMutableAttributedString alloc]init];
